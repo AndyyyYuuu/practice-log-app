@@ -13,6 +13,6 @@ Phase 1 basic features (1 week):
 ---
 Phase 3 fancy features (3 weeks or until we’re bored):
 - Daily checklist of items to practice. 
-- Ex: scales, pieces, improv
+    - Scales, pieces, improv, custom tasks
 - Advanced stats: bar graph
 - Built-in metronome, tuner (?)
