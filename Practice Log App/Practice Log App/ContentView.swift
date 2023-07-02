@@ -14,6 +14,19 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Let's get practicing!")
+            List{
+                Grid{
+                    ForEach(0..<10){ i in
+                        GridRow{
+                            Text("Week "+String(i+1))
+                            ForEach(0..<7){i in
+                                Text(String(i+1))
+                            }
+                        }
+                        Divider()
+                    }
+                }
+            }
         }
         .padding()
     }
